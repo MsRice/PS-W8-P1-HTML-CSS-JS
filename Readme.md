@@ -10,9 +10,11 @@
 
 
 ## Overview
-### Scenario
 
 Project 1 - HTML, CSS, and JavaScript
+
+### Scenario
+
 
 For this cumulative assessment on HTML, CSS, and JavaScript, you will select and complete one of the following Frontend Mentor  challenges:  
 
@@ -68,7 +70,7 @@ npm start
     Looking ahead, there are a few meaningful improvements I’d like to make. One key enhancement is replacing the current alert-based error notifications with inline, in-page error messaging. This would provide a smoother user experience and help errors feel like part of the interface rather than interruptions. I’m also considering expanding the UI further to make the tool more responsive and visually dynamic.
 
     Overall, this project reinforced good development habits while giving me room to refine both technical and design skills.
-    ## Author
+
 
 ## Author
 
