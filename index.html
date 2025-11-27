@@ -11,25 +11,43 @@
 </head>
 <body>
     <div class="container">
-    <nav>
-        <div class="nav_side_a">
-            <div class="logo__wrapper">
-                <img class="logo_gor" src="./image/gor_presents.png" alt="">
-                <img class="logo_shortly" src="./image/from_figma/logo.svg" alt="">
+        <nav>
+            <div class="nav_side_a">
+                <div class="logo__wrapper">
+                    <img class="logo_gor" src="./image/gor_presents.png" alt="">
+                    <img class="logo_shortly" src="./image/from_figma/logo.svg" alt="">
+                </div>
+                <ul class="nav__links ">
+                <li class="nav__link">Features</li>
+                <li class="nav__link">Pricing</li>
+                <li class="nav__link">Resources</li> 
+                </ul>
             </div>
-            <ul class="nav__links ">
-               <li class="nav__link">Features</li>
-               <li class="nav__link">Pricing</li>
-               <li class="nav__link">Resources</li> 
-            </ul>
-        </div>
-        <div class="nav_side_b">
-            <ul class="nav__links">
-                <li class="nav__link">Login</li>
-                <li class="nav__link primary">Sign Up</li>
-            </ul>
-        </div>
-    </nav></div>
+            <div class="nav_side_b">
+                <ul class="nav__links">
+                    <li class="nav__link">Login</li>
+                    <li class="nav__link primary">Sign Up</li>
+                </ul>
+            </div>
+            <div class="nav__menu">
+                <div>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav class="nav__links-dropdown--wrapper">
+                    <ul class="nav__links-dropdown">
+                        <li class="nav__links-dropdown--link">Features</li>
+                        <li class="nav__links-dropdown--link">Pricing</li>
+                        <li class="nav__links-dropdown--link">Resources</li>
+                        <li class="nav__links-dropdown--link">Login</li>
+                        <li class="nav__links-dropdown--link primary">Sign Up</li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+        </nav>
+    </div>
     <section class="container" id="landing">
         <div class="row">
             <div class="landing--wrapper">
@@ -55,9 +73,19 @@
                     <input type="text" class="origin-link--bar" id="origin-link" placeholder="Shorten a link here..">
                     <button class="primary primary-sqr" type="submit">Shorten It!</button>
                 </form>
-            </div>
+                <div class="add-link--wrapper">
+                    <span class="add-link">Please add a link</span>
 
-    </section>
+                </div>
+            </div>
+            
+        </section>
+        <section class="container" id="shortened">
+
+            <div class="shortened--wrapper" id="shortened--wrapper">
+               
+            </div>
+        </section>
     <section class="container">
         <div class="statistics--wrapper" id="statistics">
             <div class="statistics__info--wrapper">
@@ -107,7 +135,7 @@
             <div class="boost__info--title">Boost your links today</div>
             <div class="boost__info--sub-title primary">Get Started</div>
 
-        </disub-v primary>
+        </div primary>
     </section>
     <footer>
         <div class="footer--wrapper">

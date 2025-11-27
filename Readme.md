@@ -33,7 +33,7 @@ This project aims to assess your ability to apply the skills and knowledge acqui
 - HTML , CSS , JS
 - TypeScript
 - npm/npx
-- Api : ([Bitly.com](https://app.bitly.com/BpbphtNIPbs/home))
+- API  : ([Bitly.com](https://app.bitly.com/BpbphtNIPbs/home))
 
 
 
@@ -46,18 +46,18 @@ Deployed on Vercel:([Shortly by Rice](https://vercel.com/rice-maxwells-projects/
 
 1. Build the TypeScript Files
 
-Compiles all .ts files into /dist:
+    -- Compiles all .ts files into /dist:
 
-npm run build
+    -- npm run build
 
 
-This runs: tsc --project tsconfig.json
+    -- This runs: tsc --project tsconfig.json
 
 2. Run the Compiled JavaScript
 
-After building, run the app from the dist folder:
+    -- After building, run the app from the dist folder:
 
-npm start
+    -- npm start
 
 ## Reflection
 
