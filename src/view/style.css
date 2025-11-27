@@ -503,6 +503,55 @@ footer{
         padding: 1.6rem 2.6rem;
     }
 
+    /*  Shortened */
+#shortened{
+    width: 100%;
+    background-color:#F0F1F6 ;
+    
+}
+.shortened--wrapper{
+    width: 90%;
+    
+}
+.shortened-link--wrapper{
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 1.6rem;
+    margin: 1rem 0;
+    
+}
+.short__long--str {
+    width: 50%;
+}
+.short__long--str , .short__srt--str{
+    font-size: 1rem ;
+    font-weight: 600;
+}
+
+.shortened--form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.shortened--form
+.copy{
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 1.6rem 2.8rem;
+    color: #ffffff;
+    font-weight: 800;
+    background-color: #78ceD2;
+    padding: 10px 22px;
+    border: #78ceD2;
+}
+.copied{
+    background-color: #393151;
+
+}
     /* Statistics */
 
     .statistics__info--title{
@@ -591,6 +640,44 @@ footer{
     }
      .origin-link--bar::placeholder{
         font-size: 1.1rem;
+    }
+       /*  Shortened */
+
+
+    .shortened-link--wrapper{
+        padding: 1.4rem 1.6rem;
+        margin: 1rem 0;
+    }
+    .short__long--str {
+        width: 50%;
+    }
+    .short__long--str , .short__srt--str{
+        font-size: .9rem ;
+        font-weight: 600;
+    }
+
+    .shortened--form{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+        width: 30%;
+    }
+    
+    .copy{
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 1.6rem 2.8rem;
+        color: #ffffff;
+        font-weight: 800;
+        background-color: #78ceD2;
+        padding: 10px 22px;
+        border: #78ceD2;
+    }
+    .copied{
+        background-color: #393151;
+
     }
 
     /* Statistic Card */
@@ -1098,6 +1185,7 @@ footer{
 }
 
 @media screen and (max-width: 1000px){
+    
     /* Nav */
     .logo_gor{
         max-height: 10vh;
@@ -1117,7 +1205,7 @@ footer{
     }
 
     .primary{
-        padding: 8px 14px;
+        padding: 8px 10px;
     }
 
         /* Landing */
@@ -1143,18 +1231,24 @@ footer{
         margin: 50px 0 0 0;
         
     }
-    .shortening--form{
+   .shortening--form{
         width: 96%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
     }
 
     .origin-link--bar{
-        width: 85%;
+        width: 100%;
         padding: 0.8rem;
         border-radius: 10px;
-        line-height: .8rem;
+        line-height: .6rem;
         font-size: 1.2rem;
         
     }
+
     .origin-link--bar::placeholder{
         font-size: .8rem;
         color: rgb(180, 198, 204);;
@@ -1309,6 +1403,7 @@ footer{
 }
 
 @media screen and (max-width: 800px){
+ 
     /* Nav */
     .logo_gor{
         max-height: 10vh;
@@ -1348,6 +1443,7 @@ footer{
 
     
     /* Shortening Bar */
+    
     #shortening{
         width: 100%;
         height: 20vh;
@@ -1355,11 +1451,16 @@ footer{
         
     }
     .shortening--form{
-        width: 98%;
+        width: 96%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
     }
 
     .origin-link--bar{
-        width: 83%;
+        width: 100%;
         padding: 0.8rem;
         border-radius: 10px;
         line-height: .6rem;
@@ -1521,9 +1622,7 @@ footer{
     }
 }
 @media screen and (max-width: 600px){
-    /* body  {
-        background-color: chartreuse;
-    } */
+
     /* Nav */
 
     .nav__menu{
@@ -1557,6 +1656,11 @@ footer{
 
         /* Landing */
 
+    .container{
+
+        position: relative;
+        overflow: hidden;
+    }
     .landing--wrapper{
         width: 100%;
         height: 70vh;
@@ -1579,13 +1683,20 @@ footer{
     
     .landing__img--image{
         position: absolute;
-        left: 300px;
-        top: 100px;
+        left: 250px;
+        top: 20px;
         max-height: 40vh;
     }
     
 
     /* Shortening Bar */
+        #shortening{
+        width: 100%;
+        height: 20vh;
+        margin: 50px 0 0 0;
+        
+    }
+   
     #shortening{
         width: 100%;
         height: 20vh;
@@ -1596,7 +1707,8 @@ footer{
         
     }
     .shortening--form{
-        width: 98%;
+        width: 96%;
+        height: 100%;
     }
     
     .origin-link--bar{
